@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HAIL - Hub for Artificial Intelligence Lesotho</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="HAIL Logo" />
+        <h1>HAIL</h1>
+      </div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#ai-awareness">AI Awareness</a></li>
+        <li><a href="#applications">Applications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="learning.html">Learning Hub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Lesotho through Artificial Intelligence</h2>
+    <p>Learn, build, and innovate with AI for a better future.</p>
+    <a href="#about" class="btn">Get Started</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="content">
+    <h2>About HAIL</h2>
+    <p>The Hub for Artificial Intelligence Lesotho (HAIL) is dedicated to creating AI awareness, educating communities, and enabling innovation that improves lives in Lesotho and beyond.</p>
+  </section>
+
+  <!-- AI Awareness Section -->
+  <section id="ai-awareness" class="content">
+    <h2>What is Artificial Intelligence?</h2>
+    <p>Artificial Intelligence (AI) refers to systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.</p>
+    <div class="ai-demo">
+      <h3>Want to learn something cool about AI?</h3>
+      <button id="aiFactBtn" class="btn">Show AI Fact</button>
+      <p id="aiFact" class="ai-fact"></p>
+    </div>
+  </section>
+
+  <!-- AI Applications Section -->
+  <section id="applications" class="content">
+    <h2>How AI Can Help Lesotho</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Healthcare</h3>
+        <p>AI can assist in diagnosing diseases faster and improving healthcare access in remote areas.</p>
+      </div>
+      <div class="card">
+        <h3>Agriculture</h3>
+        <p>Predict crop yields, detect pests early, and improve food security with AI-driven insights.</p>
+      </div>
+      <div class="card">
+        <h3>Education</h3>
+        <p>Provide personalized learning and access to global AI knowledge for students.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content">
+    <h2>Get Involved</h2>
+    <p>Join our community and help build AI solutions for Lesotho.</p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 HAIL - Hub for Artificial Intelligence Lesotho. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
